@@ -15,7 +15,7 @@ def test_practice():
         "browserVersion": "100.0",
         "selenoid:options": {
             "enableVNC": True,
-            "enableVideo": False
+            "enableVideo": True
         }
     }
 
