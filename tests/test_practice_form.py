@@ -31,9 +31,3 @@ def test_practice():
         user_olga.fill_form().submit()
     with allure.step("Assert results"):
         user_olga.assert_fields()
-'''
-    attach.add_html(browser)
-    attach.add_screenshot(browser)
-    attach.add_logs(browser)
-    attach.add_video(browser)
-    '''

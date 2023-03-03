@@ -2,6 +2,7 @@ import pytest
 from selene.support.shared import browser
 from tests.utils import attach
 
+
 @pytest.fixture(autouse=True)
 def open_browser():
     browser.config.base_url = 'https://demoqa.com'
