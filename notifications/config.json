@@ -1,0 +1,17 @@
+{
+  "base": {
+    "logo": "",
+    "project": "lisarogoza project",
+    "environment": "some env",
+    "comment": "Good luck",
+    "reportLink": "",
+    "language": "eng",
+    "allureFolder": "allure-results",
+    "enableChart": true
+  },
+  "telegram": {
+    "token": "5937524798:AAFHU4oqpDHeCPKUVwNFEx8Z4l2SFnT1CtU",
+    "chat": "-1001988464760",
+    "replyTo": ""
+  }
+}
