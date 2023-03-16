@@ -1,0 +1,16 @@
+# Для выполнения в винде curl -s -o /dev/null -X POST -H "Content-Type: application/json" -d "{\"chat_id\": \"{-1001988464760}\", \"text\": \"Hallo!!\", \"disable_notification\": false}"
+# https://api.telegram.org/bot{5937524798:AAFHU4oqpDHeCPKUVwNFEx8Z4l2SFnT1CtU}/sendMessage
+
+curl --location --request GET 'https://api.telegram.org/bot5937524798:AAFHU4oqpDHeCPKUVwNFEx8Z4l2SFnT1CtU/sendMessage' \
+--header 'Content-Type: application/json' \
+--data '{"chat_id": "-1001838820780", "text": "This is a test from qa.guru", "disable_notification": true}'
+
+
+https://api.telegram.org/bot5937524798:AAFHU4oqpDHeCPKUVwNFEx8Z4l2SFnT1CtU/getUpdates
+
+telegram token: 5937524798:AAFHU4oqpDHeCPKUVwNFEx8Z4l2SFnT1CtU
+telegram chat: -1001988464760
+
+
+java "-DconfigFile=notifications/config.json" -jar notifications/allure-notifications-4.2.1.jar
+
